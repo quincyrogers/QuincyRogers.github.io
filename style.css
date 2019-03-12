@@ -1,0 +1,160 @@
+
+.container{
+  box-shadow: 2px 3px 11px 4px rgba(8,8,8,0.71);
+  margin: 2rem auto;
+  max-width: 90%;
+  width: 1200px;
+  max-height: 90%;
+
+}
+
+.topheader{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+#logo{
+  margin-left: 1rem;
+  font-family: sans-serif;
+  
+}
+.topNav{
+  margin-right: rem;
+}
+
+.topNav ul {
+  display: flex;
+  
+}
+.topNav ul li{
+  list-style-type: none;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  
+  
+}
+
+.topNav ul li:hover{
+  background-color: #999;
+  border-radius: 8px;
+  transition:1s;
+}
+
+.hero{
+  background-image: 
+    url("https://images.unsplash.com/photo-1443397496996-b312c918b54e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80");
+  background-position: ;
+  background background-attachment: fixed;
+  background-size: cover;
+  height: 70vh;
+  opacity: .90;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 150%;
+  color: white;
+  text-shadow: 2px 2px #6666;
+  align-items: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  max-height: 75%;
+  height: 500;
+  column-gap: 250px;
+}
+
+#tech article {
+  background:#ccc;
+  padding: 1em;
+}
+
+
+#projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+
+#projects article {
+  background:#ccc;
+  padding: 1em;
+}
+
+#projects article img {
+  width: 100%;
+  border: 1px solid #333;
+}
+
+#projects article {
+  background:#ccc;
+  padding: 1em;
+}
+
+.bottom-footer{
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #ccc; 
+  
+}
+
+h1,h2,h3 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  color: black;
+}
+
+#projects > p {
+display: flex;
+  flex-flow: row;
+  justify-content: center;
+  color: black;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 8px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+#tech {
+  background-color: #F0F8FF;
+}
+
+
+/* Set a specific color for each brand */
+
+/* Linkedin */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: #161616;
+  color: white;
+}
+
+
