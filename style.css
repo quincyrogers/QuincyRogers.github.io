@@ -94,7 +94,7 @@
   background-color: #4682B4;
   max-height: 100%;
 }
-/*.hero {
+.hero {
   display: grid;
   grid-template-columns: 2fr;
   grid-template-rows: auto;
@@ -103,7 +103,7 @@
   max-height: 75%;
   height: 500;
   column-gap: 250px;
-}*/
+}
 
 .hero h2 {
   display: grid;
